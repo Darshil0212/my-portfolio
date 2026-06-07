@@ -18,22 +18,44 @@ const siteUrl =
     ? `https://${process.env.VERCEL_BRANCH_URL}`
     : process.env.VERCEL_PROJECT_PRODUCTION_URL
       ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-      : "http://localhost:3000";
+      : "http://localhost:3002";
 
-const title = "Dev Starter by Zippystarter";
+const title = "Darshil Kachhadiya | Full Stack Developer";
 const description =
-  "Dev Starter is an open source, one page developer portfolio template.";
+  "Full Stack Developer from Surat, Gujarat. 2+ years building React.js, MERN stack applications with Node.js, MongoDB, and Tailwind CSS. Open to Full Stack roles.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title,
   description,
+  themeColor: "#0b1020",
+  keywords: [
+    "Darshil Kachhadiya",
+    "Full Stack Developer",
+    "MERN Stack Developer",
+    "React Developer",
+    "Surat",
+    "Gujarat",
+    "Portfolio",
+  ],
+  authors: [{ name: "Darshil Kachhadiya" }],
   openGraph: {
     title,
     description,
     url: "./",
     siteName: title,
     images: "/og.jpg",
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
