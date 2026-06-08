@@ -20,9 +20,9 @@ const siteUrl =
       ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
       : "http://localhost:3002";
 
-const title = "GSTNOVA | Web Software";
+const title = "Darshil Kachhadiya | Full Stack Developer";
 const description =
-  "GSTNOVA is a modern web software platform for Indian businesses — offering invoicing, billing, and business management tools with secure authentication.";
+  "Full Stack Developer from Surat, Gujarat. 2+ years building React.js, MERN stack applications with Node.js, MongoDB, and Tailwind CSS. Open to Full Stack roles.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -30,15 +30,15 @@ export const metadata: Metadata = {
   description,
   themeColor: "#0b1020",
   keywords: [
-    "GSTNOVA",
-    "Web Software",
-    "GST Software",
-    "Billing System",
-    "Invoice Management",
-    "Indian Business",
-    "Web App",
+    "Darshil Kachhadiya",
+    "Full Stack Developer",
+    "MERN Stack Developer",
+    "React Developer",
+    "Surat",
+    "Gujarat",
+    "Portfolio",
   ],
-  authors: [{ name: "GSTNOVA" }],
+  authors: [{ name: "Darshil Kachhadiya" }],
   openGraph: {
     title,
     description,

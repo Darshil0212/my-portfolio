@@ -1,18 +1,18 @@
 export const siteConfig = {
-  name: "GSTNOVA",
-  firstName: "GST",
-  lastName: "NOVA",
-  role: "Web Software",
+  name: "Darshil Kachhadiya",
+  firstName: "Darshil",
+  lastName: "Kachhadiya",
+  role: "Full Stack Developer",
   tagline:
-    "Modern web software for Indian businesses with invoicing, billing, and management tools built for speed and ease of use.",
-  location: "India",
-  email: "support@gstnova.com",
+    "Building responsive, production-ready web applications with React.js, REST APIs, and the MERN stack — designed for recruiters and interview-ready presentations.",
+  location: "Surat, Gujarat, India",
+  email: "kachhadiyadarshil54@gmail.com",
   phone: "+91 7624055465",
   whatsapp: "https://wa.me/918799338055",
-  linkedin: "https://www.linkedin.com/company/gstnova",
-  github: "https://github.com/GSTNOVA",
-  resumeFile: "/GSTNOVA_Product_Brochure.pdf",
-  resumeName: "GSTNOVA_Product_Brochure.pdf",
+  linkedin: "https://www.linkedin.com/in/darshil-kachhadiya-2a701134a",
+  github: "https://github.com/Darshil0212",
+  resumeFile: "/Darshil_Kachhadiya_Resume.pdf",
+  resumeName: "Darshil_Kachhadiya_Resume.pdf",
   available: true,
   experienceYears: "2+",
   projectCountDisplay: "12+",
@@ -23,17 +23,17 @@ export const siteConfig = {
 };
 
 export const typewriterStrings = [
-  "GSTNOVA_",
-  "BILLING_",
-  "INVOICE_",
-  "SME_",
+  "DEV_",
+  "BUILDER_",
+  "ENGINEER_",
+  "CREATOR_",
 ];
 
 export const aboutContent = {
   paragraphs: [
-    "GSTNOVA is a modern web software platform for Indian businesses. It offers quick invoice generation, customer management, and a polished management dashboard.",
-    "The product supports secure authentication flows, transaction tracking, and flexible reporting. It is designed to simplify daily billing and business operations for SMBs.",
-    "GSTNOVA delivers an intuitive interface, fast search, and clean export-ready documents so businesses can focus on growth instead of admin work.",
+    "Full Stack Developer with 2+ years of experience building responsive web applications and integrating REST APIs. Skilled in JavaScript (ES6+), React.js, Redux, and Tailwind CSS.",
+    "I deliver business-ready solutions with Node.js, Express.js, MongoDB, JWT Authentication, and GraphQL. At 3ni Infotech, I built role-based dashboards, admin panels, and production React applications.",
+    "Previously at Smart Technica, I shipped responsive UI, API integrations, and real-time admin panels. I focus on clean code, scalable systems, and projects that interviewers can understand instantly.",
   ],
 };
 
