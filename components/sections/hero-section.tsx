@@ -29,7 +29,7 @@ export function HeroSection() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary" />
             </span>
-            <span className="truncate">AVAILABLE FOR MERN/FULL STACK ROLES</span>
+            <span className="truncate">GSTNOVA WEB SOFTWARE</span>
           </div>
 
           <p className="text-sm font-mono text-muted-foreground tracking-wider">

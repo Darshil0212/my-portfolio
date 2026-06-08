@@ -22,12 +22,10 @@ export function SiteLogo({ onClick }: SiteLogoProps) {
       </div>
       <div className="hidden sm:block font-mono tracking-tighter leading-none">
         <span className="block text-[10px] text-sky-100/70 uppercase tracking-widest">
-          Portfolio
+          GST Software
         </span>
         <span className="text-sm font-bold uppercase text-sky-50">
-          {siteConfig.firstName}
-          <span className="text-sky-200">_</span>
-          {siteConfig.lastName.split(" ")[0]}
+          GSTNOVA
         </span>
       </div>
     </Link>

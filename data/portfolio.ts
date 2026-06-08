@@ -1,39 +1,39 @@
 export const siteConfig = {
-  name: "Darshil Kachhadiya",
-  firstName: "Darshil",
-  lastName: "Kachhadiya",
-  role: "Full Stack Developer",
+  name: "GSTNOVA",
+  firstName: "GST",
+  lastName: "NOVA",
+  role: "Web Software",
   tagline:
-    "Building responsive, production-ready web applications with React.js, REST APIs, and the MERN stack — designed for recruiters and interview-ready presentations.",
-  location: "Surat, Gujarat, India",
-  email: "kachhadiyadarshil54@gmail.com",
+    "Modern web software for Indian businesses with invoicing, billing, and management tools built for speed and ease of use.",
+  location: "India",
+  email: "support@gstnova.com",
   phone: "+91 7624055465",
   whatsapp: "https://wa.me/918799338055",
-  linkedin: "https://www.linkedin.com/in/darshil-kachhadiya-2a701134a",
-  github: "https://github.com/Darshil0212",
-  resumeFile: "/Darshil_Kachhadiya_Resume.pdf",
-  resumeName: "Darshil_Kachhadiya_Resume.pdf",
+  linkedin: "https://www.linkedin.com/company/gstnova",
+  github: "https://github.com/GSTNOVA",
+  resumeFile: "/GSTNOVA_Product_Brochure.pdf",
+  resumeName: "GSTNOVA_Product_Brochure.pdf",
   available: true,
   experienceYears: "2+",
   projectCountDisplay: "12+",
   projectsEndNote:
     "Featured highlights shown · 12+ total projects delivered including private enterprise builds.",
   projectsMoreNote:
-    "Additional work exists under company NDA — happy to discuss on interview or via email.",
+    "Additional work exists under company NDA — happy to discuss on email.",
 };
 
 export const typewriterStrings = [
-  "DEV_",
-  "BUILDER_",
-  "ENGINEER_",
-  "CREATOR_",
+  "GSTNOVA_",
+  "BILLING_",
+  "INVOICE_",
+  "SME_",
 ];
 
 export const aboutContent = {
   paragraphs: [
-    "Full Stack Developer with 2+ years of experience building responsive web applications and integrating REST APIs. Skilled in JavaScript (ES6+), React.js, Redux, and Tailwind CSS.",
-    "I deliver business-ready solutions with Node.js, Express.js, MongoDB, JWT Authentication, and GraphQL. At 3ni Infotech, I built role-based dashboards, admin panels, and production React applications.",
-    "Previously at Smart Technica, I shipped responsive UI, API integrations, and real-time admin panels. I focus on clean code, scalable systems, and projects that interviewers can understand instantly.",
+    "GSTNOVA is a modern web software platform for Indian businesses. It offers quick invoice generation, customer management, and a polished management dashboard.",
+    "The product supports secure authentication flows, transaction tracking, and flexible reporting. It is designed to simplify daily billing and business operations for SMBs.",
+    "GSTNOVA delivers an intuitive interface, fast search, and clean export-ready documents so businesses can focus on growth instead of admin work.",
   ],
 };
 
@@ -186,12 +186,12 @@ export const projects: Project[] = [
     isCompanyProject: true,
   },
   {
-    title: "GST Billing Web Software",
+    title: "GSTNOVA Web Software",
     icon: "receipt",
     description:
-      "Full-stack billing & business management system with authentication and subscription flow.",
+      "GSTNOVA is a full-stack web software platform built for Indian SMBs with invoicing, billing, and secure authentication.",
     features: [
-      "Invoice & challan generation",
+      "Invoice generation",
       "Customer & transaction management",
       "Google Login & Email OTP verification",
     ],

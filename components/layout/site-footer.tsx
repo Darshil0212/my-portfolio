@@ -14,7 +14,7 @@ export function SiteFooter() {
       <div className="grid gap-6 lg:grid-cols-[1fr_auto_1fr] items-center">
         <div className="space-y-1 text-center lg:text-left">
           <p className="text-xs sm:text-sm font-mono text-foreground/80 tracking-[0.16em]">
-            © {year} {siteConfig.name.toUpperCase()}
+            © {year} GSTNOVA
           </p>
           <p className="text-[10px] sm:text-xs font-mono text-muted-foreground">
             Built with Next.js & Tailwind CSS
